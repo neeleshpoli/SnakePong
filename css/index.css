@@ -1,0 +1,40 @@
+body {
+    color: #e5e7e6;
+    background-color: black;
+    font-family: sans-serif;
+}
+button {
+    border-radius: 1vw;
+    border: none;
+}
+#start {
+    background-color: #9d7798;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+#logo {
+    width: 25vw;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+#pause {width: 10vw}
+#pauseMenu {
+    font-size: x-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4e5368;
+    border-radius: 1vw;
+    text-align: center;
+    padding: 3vw;
+    visibility: hidden;
+}
+#continue {
+    background-color: #add0b3;
+    margin-bottom: 1%;
+}
