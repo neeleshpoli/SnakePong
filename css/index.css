@@ -6,6 +6,7 @@ body {
 button {
     border-radius: 1vw;
     border: none;
+    text-size-adjust: 10vm;
 }
 #start {
     background-color: #9d7798;
@@ -33,8 +34,18 @@ button {
     text-align: center;
     padding: 3vw;
     visibility: hidden;
+    z-index: 1;
 }
 #continue {
     background-color: #add0b3;
     margin-bottom: 1%;
+}
+#gameCanvas {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
